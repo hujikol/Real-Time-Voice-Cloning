@@ -62,7 +62,7 @@ or
 
 depending on whether you downloaded any datasets. If you are running an X-server or if you have the error `Aborted (core dumped)`, see [this issue](https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/11#issuecomment-504733590).
 
-##This is for windows 10, 64 bit.  
+###This is for windows 10, 64 bit.  
 1. install python 3.7
 2. install microsoft C++ dev toolkit (via visual studio community edition)
 3. install tensor flow version 1.14
