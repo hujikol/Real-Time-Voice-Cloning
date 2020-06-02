@@ -61,3 +61,18 @@ or
 `python demo_toolbox.py`  
 
 depending on whether you downloaded any datasets. If you are running an X-server or if you have the error `Aborted (core dumped)`, see [this issue](https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/11#issuecomment-504733590).
+
+##This is for windows 10, 64 bit.  
+1. install python 3.7
+2. install microsoft C++ dev toolkit (via visual studio community edition)
+3. install tensor flow version 1.14
+4. install tensor flow gpu version 1.14 (not sure if this is required)
+5. Install cuda version 10.0 (download exact version from website)
+6. Add cuda bin to PATH
+7. Install cudnn 64_7 dll
+8. Add cudnn to PATH
+9. Download the repo
+10. Download the pretrained models and place the folders in repo root, following given folder structure
+11. Download the dataset (optional but handy) and place it in the repo root in a folder called datasets
+12. At this point you should be able to test it via command line (open prompt, navigate to repo folder and run python demo_cli.py)
+13. If it works there, then you can run: python "demo_toolbox.py -d datasets" to open the GUI program with the data sets loaded.
